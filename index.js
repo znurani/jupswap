@@ -20,7 +20,7 @@ import {
 import { Helius } from "helius-sdk";
 
 const connection = new Connection(
-  "https://devnet.helius-rpc.com/?api-key=29ef56b0-fda0-4d8d-8fde-ca99b0457e86",
+  "https://devnet.helius-rpc.com/?api-key=<INSERT API KEY HERE>",
 );
 
 const mySecret = process.env["SECRET_KEY"];
